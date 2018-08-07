@@ -30,6 +30,7 @@ v_out.backward()    # backpropagation from v_out
 # v_out = 1/4 * sum(variable*variable)
 # the gradients w.r.t the variable, d(v_out)/d(variable) = 1/4*2*variable = variable/2
 print(variable.grad)
+
 '''
  0.5000  1.0000
  1.5000  2.0000
